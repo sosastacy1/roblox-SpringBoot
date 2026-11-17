@@ -1,7 +1,12 @@
 package com.dest1.roblox.entities;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Roblox {
 
+    @Id
     private int id;
     private String nome;
     private String jogo;
